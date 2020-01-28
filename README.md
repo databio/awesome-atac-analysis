@@ -29,7 +29,7 @@
 
 - [PEPATAC](http://pepatac.databio.org/en/latest/)
 - [ATAC-pipe](https://academic.oup.com/bib/article/20/5/1934/5047123)
-- [pyflow-atacseq](htts://github.com/crazyhottommy/pyflow-ATACseq)
+- [pyflow-atacseq](https://github.com/crazyhottommy/pyflow-ATACseq)
 - [AIAP: a Quality Control and Integrative Analysis Package](https://github.com/Zhang-lab/ATACseq_benchmarking)
 - [ATACProc: a pipeline for processing ATAC-seq data](https://github.com/ay-lab/ATACProc)
 - [esATAC](https://www.bioconductor.org/packages/release/bioc/html/esATAC.html)
