@@ -46,12 +46,14 @@
 
 - [HINT-ATAC](https://link.springer.com/article/10.1186/s13059-019-1642-2)
 - [PeaKDEck](https://www.ccmp.ox.ac.uk/peakdeck)
+- [MACS](https://github.com/taoliu/MACS)
+- [fseq](http://fureylab.web.unc.edu/software/fseq/)
 
 ## Footprinting
 
 - [TRACE](https://www.biorxiv.org/content/10.1101/801001v1.abstract)
-- CENTIPEDE
-- seqoutbias
+- [CENTIPEDE](http://centipede.uchicago.edu/)
+- [seqOutBias](https://guertinlab.github.io/seqOutBias/)
 
 ## Nucleosome positioning
 
