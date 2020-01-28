@@ -45,6 +45,7 @@
 ## Peak callers
 
 - [HINT-ATAC](https://link.springer.com/article/10.1186/s13059-019-1642-2)
+- [PeaKDEck](https://www.ccmp.ox.ac.uk/peakdeck)
 
 ## Footprinting
 
