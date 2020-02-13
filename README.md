@@ -13,6 +13,7 @@
 - [Bead-based scATAC-seq data Processing (BAP)](https://github.com/caleblareau/bap)
 - [Cell Ranger ATAC](https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/what-is-cell-ranger-atac)
 - [Scasat (single-cell ATAC-seq analysis tool)](https://github.com/ManchesterBioinference/Scasat)
+- [SCALE](https://github.com/jsxlei/SCALE)
 
 
 ## Standalone (or mini-pipeline) Downstream Analysis Tools
