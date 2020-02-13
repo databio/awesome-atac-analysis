@@ -17,7 +17,6 @@
 
 ## Standalone (or mini-pipeline) Downstream Analysis Tools
 
-- [diffTF](https://difftf.readthedocs.io/en/latest/)
 - [chromVAR](https://github.com/GreenleafLab/chromVAR)
 - [single cell Accessibility Based Clustering (scABC)](https://github.com/SUwonglab/scABC)
 - [Cicero](https://cole-trapnell-lab.github.io/cicero-release/)
@@ -44,16 +43,23 @@
 
 ## Peak callers
 
-- [HINT-ATAC](https://link.springer.com/article/10.1186/s13059-019-1642-2)
+- [HMMRATAC](https://github.com/LiuLabUB/HMMRATAC)
 - [PeaKDEck](https://www.ccmp.ox.ac.uk/peakdeck)
 - [MACS](https://github.com/taoliu/MACS)
 - [fseq](http://fureylab.web.unc.edu/software/fseq/)
 
-## Footprinting
+## Motif enrichment and TF footprinting
 
 - [TRACE](https://www.biorxiv.org/content/10.1101/801001v1.abstract)
 - [CENTIPEDE](http://centipede.uchicago.edu/)
-- [seqOutBias](https://guertinlab.github.io/seqOutBias/)
+- [MEME Suite](http://meme-suite.org/)
+- [HOMER](http://homer.ucsd.edu/homer/)
+- [diffTF](https://difftf.readthedocs.io/en/latest/)
+- [DAStk](https://github.com/Dowell-Lab/DAStk)
+- [DeFCoM](https://bitbucket.org/bryancquach/defcom/src)
+- [HINT-ATAC](https://link.springer.com/article/10.1186/s13059-019-1642-2)
+- [BiFET](https://github.com/UcarLab/BiFET)
+- [TOBIAS](https://github.com/loosolab/TOBIAS)
 
 ## Nucleosome positioning
 
@@ -63,3 +69,5 @@
 
 
 ## Uncategorized
+
+- [seqOutBias](https://guertinlab.github.io/seqOutBias/)
