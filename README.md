@@ -4,7 +4,7 @@
 
 - [ATAqC](https://github.com/kundajelab/ataqc)
 - [ATACseqQC](https://bioconductor.org/packages/release/bioc/html/ATACseqQC.html)
-
+- [ataqv](https://github.com/ParkerLab/ataqv)
 
 ## Single-cell
 
