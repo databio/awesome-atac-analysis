@@ -42,11 +42,12 @@
 
 ## Peak callers
 
+- [F-Seq](http://fureylab.web.unc.edu/software/fseq/)
 - [HMMRATAC](https://github.com/LiuLabUB/HMMRATAC)
-- [PeaKDEck](https://www.ccmp.ox.ac.uk/peakdeck)
-- [MACS](https://github.com/taoliu/MACS)
-- [fseq](http://fureylab.web.unc.edu/software/fseq/)
 - [HOMER](http://homer.ucsd.edu/homer/)
+- [MACS](https://github.com/taoliu/MACS)
+- [PeaKDEck](https://www.ccmp.ox.ac.uk/peakdeck)
+- [Hotspot2](https://github.com/Altius/hotspot2)
 
 ## Motif enrichment and TF footprinting
 
@@ -54,8 +55,6 @@
 - [CENTIPEDE](http://centipede.uchicago.edu/)
 - [MEME Suite](http://meme-suite.org/)
 - [HOMER](http://homer.ucsd.edu/homer/)
-- [diffTF](https://difftf.readthedocs.io/en/latest/)
-- [DAStk](https://github.com/Dowell-Lab/DAStk)
 - [DeFCoM](https://bitbucket.org/bryancquach/defcom/src)
 - [HINT-ATAC](https://link.springer.com/article/10.1186/s13059-019-1642-2)
 - [BiFET](https://github.com/UcarLab/BiFET)
@@ -64,6 +63,11 @@
 - [DNase2TF](https://sourceforge.net/projects/dnase2tfr/)
 - [PIQ](http://piq.csail.mit.edu/)
 - [Wellington](https://github.com/jpiper/pyDNase)
+
+## Differential accessibility
+
+- [diffTF](https://difftf.readthedocs.io/en/latest/)
+- [DAStk](https://github.com/Dowell-Lab/DAStk)
 
 ## Nucleosome positioning
 
