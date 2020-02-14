@@ -7,6 +7,8 @@
 
 
 ## Single-cell
+
+- [Brockman Representation Of Chromatin by K-mers in Mark-Associated Nucleotides.](https://carldeboer.github.io/brockman.html)
 - [scATAC-pro](https://www.biorxiv.org/content/10.1101/824326v1.abstract)
 - [scOpen](https://www.biorxiv.org/content/10.1101/865931v1.abstract)
 - [SnapATAC (Single Nucleus Analysis Pipeline for ATAC-seq)](https://github.com/r3fang/SnapATAC)
@@ -21,7 +23,6 @@
 - [chromVAR](https://github.com/GreenleafLab/chromVAR)
 - [single cell Accessibility Based Clustering (scABC)](https://github.com/SUwonglab/scABC)
 - [Cicero](https://cole-trapnell-lab.github.io/cicero-release/)
-- [Brockman Representation Of Chromatin by K-mers in Mark-Associated Nucleotides.](https://carldeboer.github.io/brockman.html)
 - [cisTopic](https://github.com/aertslab/cisTopic) 
 - [scrat](https://zhiji.shinyapps.io/scrat/)
 
