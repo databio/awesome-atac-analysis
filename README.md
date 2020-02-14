@@ -39,7 +39,6 @@
 - [GUAVA: A Graphical User Interface for the Analysis and Visualization of ATAC-seq Data](https://github.com/MayurDivate/GUAVA)
 - [CIPHER](https://github.com/c-guzman/cipher-workflow-platform)
 
-
 ## Peak callers
 
 - [F-Seq](http://fureylab.web.unc.edu/software/fseq/)
@@ -75,6 +74,13 @@
 - [HMMRATAC](https://academic.oup.com/nar/article/47/16/e91/5519166)
 - [NucTools](https://link.springer.com/article/10.1186/s12864-017-3580-2)
 
+## Region enrichment
+
+- [Annotatr](https://bioconductor.org/packages/release/bioc/html/annotatr.html)
+- [GIGGLE](https://github.com/ryanlayer/giggle)
+- [GREAT](http://great.stanford.edu/public/html/)
+- [LOLA](https://github.com/nsheff/LOLA)
+- [regioneR](http://bioconductor.org/packages/release/bioc/html/regioneR.html)
 
 ## Uncategorized
 
