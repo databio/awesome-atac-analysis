@@ -67,7 +67,7 @@
 ## Nucleosome positioning
 
 - [NucleoATAC](https://nucleoatac.readthedocs.io/en/latest/)
-- [hmmratac](https://academic.oup.com/nar/article/47/16/e91/5519166)
+- [HMMRATAC](https://academic.oup.com/nar/article/47/16/e91/5519166)
 - [NucTools](https://link.springer.com/article/10.1186/s12864-017-3580-2)
 
 
