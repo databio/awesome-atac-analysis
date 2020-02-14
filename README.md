@@ -29,6 +29,7 @@
 - [pyflow-atacseq](https://github.com/crazyhottommy/pyflow-ATACseq)
 - [AIAP: a Quality Control and Integrative Analysis Package](https://github.com/Zhang-lab/ATACseq_benchmarking)
 - [ATACProc: a pipeline for processing ATAC-seq data](https://github.com/ay-lab/ATACProc)
+- [ATAC2GRN](https://github.com/ChioriniLab/ATAC2GRN)
 - [esATAC](https://www.bioconductor.org/packages/release/bioc/html/esATAC.html)
 - [snakePipes ATAC-seq](https://snakepipes.readthedocs.io/en/latest/content/workflows/ATAC-seq.html)
 - [I-ATAC](https://www.jax.org/research-and-faculty/resources/i-atac#) - interactive pipeline for the management and pre-processing of ATAC-seq samples.
