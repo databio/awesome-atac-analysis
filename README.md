@@ -1,4 +1,6 @@
-# ATAC-seq tools
+# ATAC-seq analysis
+
+A collection of tools for analysis of chromatin accessibility data.
 
 ## QC
 
