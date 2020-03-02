@@ -1,4 +1,4 @@
-# ATAC-seq analysis
+# Awesome ATAC-seq analysis
 
 A collection of tools for analysis of chromatin accessibility data.
 
