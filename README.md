@@ -44,6 +44,7 @@ A collection of tools for analysis of chromatin accessibility data.
 ## Peak callers
 
 - [F-Seq](http://fureylab.web.unc.edu/software/fseq/)
+- [Genrich](https://github.com/jsh58/Genrich)
 - [HMMRATAC](https://github.com/LiuLabUB/HMMRATAC)
 - [HOMER](http://homer.ucsd.edu/homer/)
 - [Hotspot2](https://github.com/Altius/hotspot2)
