@@ -51,7 +51,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [MACS](https://github.com/taoliu/MACS)
 - [PeaKDEck](https://www.ccmp.ox.ac.uk/peakdeck)
 
-## Motif enrichment and TF footprinting
+## Motif enrichment/TF footprinting/TFBS
 
 - [BiFET](https://github.com/UcarLab/BiFET)
 - [BinDNase](https://research.cs.aalto.fi/csb/software/index.shtml)
@@ -62,12 +62,15 @@ A collection of tools for analysis of chromatin accessibility data.
 - [HOMER](http://homer.ucsd.edu/homer/)
 - [MEME Suite](http://meme-suite.org/)
 - [PIQ](http://piq.csail.mit.edu/)
+- [Romulus](https://github.com/ajank/Romulus)
+- [TEPIC](https://github.com/schulzlab/TEPIC)
 - [TOBIAS](https://github.com/loosolab/TOBIAS)
 - [TRACE](https://www.biorxiv.org/content/10.1101/801001v1.abstract)
 - [Wellington](https://github.com/jpiper/pyDNase)
 
 ## Differential accessibility
 
+- [ALTRE](https://mathelab.github.io/ALTRE/)
 - [DAStk](https://github.com/Dowell-Lab/DAStk)
 - [diffTF](https://difftf.readthedocs.io/en/latest/)
 
@@ -87,4 +90,6 @@ A collection of tools for analysis of chromatin accessibility data.
 
 ## Uncategorized
 
-- [seqOutBias](https://guertinlab.github.io/seqOutBias/)
+- [AtacWorks](https://github.com/clara-genomics/AtacWorks): correct noisy/low-quality ATAC-seq data to obtain improved peak calls
+- [seqOutBias](https://guertinlab.github.io/seqOutBias/): correction of enzymatic sequence bias
+- [sequence bias correction](https://github.com/txje/sequence-bias-adjustment)
