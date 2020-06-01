@@ -62,6 +62,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [HINT-ATAC](https://link.springer.com/article/10.1186/s13059-019-1642-2)
 - [HOMER](http://homer.ucsd.edu/homer/)
 - [MEME Suite](http://meme-suite.org/)
+- [MMARGE](https://github.com/vlink/marge/)
 - [PIQ](http://piq.csail.mit.edu/)
 - [Romulus](https://github.com/ajank/Romulus)
 - [TEPIC](https://github.com/schulzlab/TEPIC)
