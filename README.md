@@ -10,6 +10,7 @@ A collection of tools for analysis of chromatin accessibility data.
 
 ## Single-cell
 
+- [Accessibility Pattern based Epigenomic Clustering (APEC)](https://github.com/QuKunLab/APEC)
 - [Bead-based scATAC-seq data Processing (BAP)](https://github.com/caleblareau/bap)
 - [Brockman Representation Of Chromatin by K-mers in Mark-Associated Nucleotides.](https://carldeboer.github.io/brockman.html)
 - [Cell Ranger ATAC](https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/what-is-cell-ranger-atac)
