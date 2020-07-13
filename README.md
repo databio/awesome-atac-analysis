@@ -33,6 +33,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [ATAC2GRN](https://github.com/ChioriniLab/ATAC2GRN)
 - [ATACProc: a pipeline for processing ATAC-seq data](https://github.com/ay-lab/ATACProc)
 - [Basepair](https://www.basepairtech.com/analysis/atac-seq/) 
+- [A bioinformatic analysis pipeline for bulk ATAC-seq](https://github.com/shengyongniu/bulk_ATAC_seq)
 - [CIPHER](https://github.com/c-guzman/cipher-workflow-platform)
 - [ENCODE ATAC-seq pipeline](https://github.com/ENCODE-DCC/atac-seq-pipeline)
 - [esATAC](https://www.bioconductor.org/packages/release/bioc/html/esATAC.html)
