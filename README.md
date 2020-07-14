@@ -95,5 +95,6 @@ A collection of tools for analysis of chromatin accessibility data.
 ## Uncategorized
 
 - [AtacWorks](https://github.com/clara-genomics/AtacWorks): correct noisy/low-quality ATAC-seq data to obtain improved peak calls
+- [BeCorrect](https://github.com/Zhang-lab/BeCorrect): correct the batch effect of ATAC-seq signal density for visualization purposes
 - [seqOutBias](https://guertinlab.github.io/seqOutBias/): correction of enzymatic sequence bias
 - [sequence bias correction](https://github.com/txje/sequence-bias-adjustment)
