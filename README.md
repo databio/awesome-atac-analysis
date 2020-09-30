@@ -20,6 +20,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [scABC - single cell Accessibility Based Clustering](https://github.com/SUwonglab/scABC)
 - [scAI - single cell Aggregation and Integration method for analyzing single cell multi-omics data](https://github.com/amsszlh/scAI)
 - [SCALE](https://github.com/jsxlei/SCALE)
+- [SCATE](https://github.com/zji90/SCATE)
 - [Scasat (single-cell ATAC-seq analysis tool)](https://github.com/ManchesterBioinference/Scasat)
 - [scATAC-pro](https://www.biorxiv.org/content/10.1101/824326v1.abstract)
 - [scOpen](https://www.biorxiv.org/content/10.1101/865931v1.abstract)
