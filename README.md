@@ -23,9 +23,11 @@ A collection of tools for analysis of chromatin accessibility data.
 - [SCATE](https://github.com/zji90/SCATE)
 - [Scasat (single-cell ATAC-seq analysis tool)](https://github.com/ManchesterBioinference/Scasat)
 - [scATAC-pro](https://www.biorxiv.org/content/10.1101/824326v1.abstract)
+- [sc-compReg](https://github.com/SUwonglab/sc-compReg)
 - [scOpen](https://www.biorxiv.org/content/10.1101/865931v1.abstract)
 - [scrat](https://zhiji.shinyapps.io/scrat/)
 - [SnapATAC (Single Nucleus Analysis Pipeline for ATAC-seq)](https://github.com/r3fang/SnapATAC)
+- [TimeReg](https://github.com/SUwonglab/TimeReg)
 
 ## Raw data processing pipelines
 
@@ -62,6 +64,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [CENTIPEDE](http://centipede.uchicago.edu/)
 - [DeFCoM](https://bitbucket.org/bryancquach/defcom/src)
 - [DNase2TF](https://sourceforge.net/projects/dnase2tfr/)
+- [enrichTF](https://www.bioconductor.org/packages/release/bioc/html/enrichTF.html)
 - [HINT-ATAC](https://link.springer.com/article/10.1186/s13059-019-1642-2)
 - [HOMER](http://homer.ucsd.edu/homer/)
 - [MEME Suite](http://meme-suite.org/)
@@ -97,5 +100,6 @@ A collection of tools for analysis of chromatin accessibility data.
 
 - [AtacWorks](https://github.com/clara-genomics/AtacWorks): correct noisy/low-quality ATAC-seq data to obtain improved peak calls
 - [BeCorrect](https://github.com/Zhang-lab/BeCorrect): correct the batch effect of ATAC-seq signal density for visualization purposes
+- [PECA](https://github.com/SUwonglab/PECA): infer context specific gene regulatory network from paired gene expression and chromatin accessibility data
 - [seqOutBias](https://guertinlab.github.io/seqOutBias/): correction of enzymatic sequence bias
 - [sequence bias correction](https://github.com/txje/sequence-bias-adjustment)
