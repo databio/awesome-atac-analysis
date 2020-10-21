@@ -90,6 +90,7 @@ A collection of tools for analysis of chromatin accessibility data.
 ## Region enrichment
 
 - [Annotatr](https://bioconductor.org/packages/release/bioc/html/annotatr.html)
+- [COCOA](http://code.databio.org/COCOA/index.html)
 - [GIGGLE](https://github.com/ryanlayer/giggle)
 - [GREAT](http://great.stanford.edu/public/html/)
 - [LOLA](https://github.com/nsheff/LOLA)
