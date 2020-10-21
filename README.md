@@ -62,7 +62,6 @@ A collection of tools for analysis of chromatin accessibility data.
 - [BiFET](https://github.com/UcarLab/BiFET)
 - [BinDNase](https://research.cs.aalto.fi/csb/software/index.shtml)
 - [CENTIPEDE](http://centipede.uchicago.edu/)
-- [DeFCoM](https://bitbucket.org/bryancquach/defcom/src)
 - [DNase2TF](https://sourceforge.net/projects/dnase2tfr/)
 - [enrichTF](https://www.bioconductor.org/packages/release/bioc/html/enrichTF.html)
 - [HINT-ATAC](https://link.springer.com/article/10.1186/s13059-019-1642-2)
