@@ -11,12 +11,15 @@ A collection of tools for analysis of chromatin accessibility data.
 ## Single-cell
 
 - [Accessibility Pattern based Epigenomic Clustering (APEC)](https://github.com/QuKunLab/APEC)
+- [ArchR: Analysis of Regulatory Chromatin in R](https://github.com/GreenleafLab/ArchR)
 - [Bead-based scATAC-seq data Processing (BAP)](https://github.com/caleblareau/bap)
 - [Brockman Representation Of Chromatin by K-mers in Mark-Associated Nucleotides.](https://carldeboer.github.io/brockman.html)
 - [Cell Ranger ATAC](https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/what-is-cell-ranger-atac)
 - [chromVAR](https://github.com/GreenleafLab/chromVAR)
 - [Cicero](https://cole-trapnell-lab.github.io/cicero-release/)
 - [cisTopic](https://github.com/aertslab/cisTopic)
+- [destin](https://github.com/urrutiag/destin)
+- [epiScanpy](https://github.com/colomemaria/epiScanpy)
 - [scABC - single cell Accessibility Based Clustering](https://github.com/SUwonglab/scABC)
 - [scAI - single cell Aggregation and Integration method for analyzing single cell multi-omics data](https://github.com/amsszlh/scAI)
 - [SCALE](https://github.com/jsxlei/SCALE)
@@ -25,7 +28,8 @@ A collection of tools for analysis of chromatin accessibility data.
 - [scATAC-pro](https://www.biorxiv.org/content/10.1101/824326v1.abstract)
 - [sc-compReg](https://github.com/SUwonglab/sc-compReg)
 - [scOpen](https://www.biorxiv.org/content/10.1101/865931v1.abstract)
-- [scrat](https://zhiji.shinyapps.io/scrat/)
+- [SCRAT](https://zhiji.shinyapps.io/scrat/)
+- [signac](https://satijalab.org/signac/)
 - [SnapATAC (Single Nucleus Analysis Pipeline for ATAC-seq)](https://github.com/r3fang/SnapATAC)
 - [TimeReg](https://github.com/SUwonglab/TimeReg)
 
@@ -45,6 +49,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [nfcore/atacseq](https://github.com/nf-core/atacseq)
 - [PEPATAC](http://pepatac.databio.org/en/latest/)
 - [pyflow-atacseq](https://github.com/crazyhottommy/pyflow-ATACseq)
+- [seq2science](https://github.com/vanheeringen-lab/seq2science)
 - [snakePipes ATAC-seq](https://snakepipes.readthedocs.io/en/latest/content/workflows/ATAC-seq.html)
 
 ## Peak callers
@@ -66,6 +71,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [enrichTF](https://www.bioconductor.org/packages/release/bioc/html/enrichTF.html)
 - [HINT-ATAC](https://link.springer.com/article/10.1186/s13059-019-1642-2)
 - [HOMER](http://homer.ucsd.edu/homer/)
+- [MEDEA](https://github.com/BulykLab/MEDEA)
 - [MEME Suite](http://meme-suite.org/)
 - [MMARGE](https://github.com/vlink/marge/)
 - [PIQ](http://piq.csail.mit.edu/)
