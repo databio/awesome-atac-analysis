@@ -104,6 +104,7 @@ A collection of tools for analysis of chromatin accessibility data.
 
 ## Uncategorized
 
+- [ATACgraph](https://github.com/RitataLU/ATACgraph): post alignment QC and differential analyses modules
 - [AtacWorks](https://github.com/clara-genomics/AtacWorks): correct noisy/low-quality ATAC-seq data to obtain improved peak calls
 - [BeCorrect](https://github.com/Zhang-lab/BeCorrect): correct the batch effect of ATAC-seq signal density for visualization purposes
 - [PECA](https://github.com/SUwonglab/PECA): infer context specific gene regulatory network from paired gene expression and chromatin accessibility data
