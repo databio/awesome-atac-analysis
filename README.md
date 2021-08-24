@@ -108,6 +108,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [AtacWorks](https://github.com/clara-genomics/AtacWorks): correct noisy/low-quality ATAC-seq data to obtain improved peak calls
 - [BeCorrect](https://github.com/Zhang-lab/BeCorrect): correct the batch effect of ATAC-seq signal density for visualization purposes
 - [CoRE-ATAC](https://github.com/UcarLab/CoRE-ATAC/): Classification of Regulatory Elements with ATAC-seq (predict Promoters, Enhancers, and Inuslators)
+- [PEAS](https://github.com/UcarLab/PEAS): Predict Enhancers from ATAC-seq
 - [PECA](https://github.com/SUwonglab/PECA): infer context specific gene regulatory network from paired gene expression and chromatin accessibility data
 - [seqOutBias](https://guertinlab.github.io/seqOutBias/): correction of enzymatic sequence bias
 - [sequence bias correction](https://github.com/txje/sequence-bias-adjustment)
