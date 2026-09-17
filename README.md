@@ -32,6 +32,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [SCRAT](https://zhiji.shinyapps.io/scrat/)
 - [signac](https://satijalab.org/signac/)
 - [SnapATAC (Single Nucleus Analysis Pipeline for ATAC-seq)](https://github.com/r3fang/SnapATAC)
+- [SnapATAC2](https://github.com/scverse/SnapATAC2): A Python/Rust package for scalable single-cell epigenomics analysis
 - [TimeReg](https://github.com/SUwonglab/TimeReg)
 
 ## Raw data processing pipelines
