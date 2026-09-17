@@ -32,7 +32,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [SCRAT](https://zhiji.shinyapps.io/scrat/)
 - [signac](https://satijalab.org/signac/)
 - [SnapATAC (Single Nucleus Analysis Pipeline for ATAC-seq)](https://github.com/r3fang/SnapATAC)
-- [SnapATAC2](https://github.com/scverse/SnapATAC2): A Python/Rust package for scalable single-cell epigenomics analysis
+- [SnapATAC2](https://github.com/scverse/SnapATAC2): Python package for scalable single-cell epigenomics analysis
 - [TimeReg](https://github.com/SUwonglab/TimeReg)
 
 ## Raw data processing pipelines
@@ -109,6 +109,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [ATACgraph](https://github.com/RitataLU/ATACgraph): post alignment QC and differential analyses modules
 - [AtacWorks](https://github.com/clara-genomics/AtacWorks): correct noisy/low-quality ATAC-seq data to obtain improved peak calls
 - [BeCorrect](https://github.com/Zhang-lab/BeCorrect): correct the batch effect of ATAC-seq signal density for visualization purposes
+- [chromBPNet](https://github.com/kundajelab/chrombpnet): bias-factorized, base-resolution deep learning models of chromatin accessibility
 - [CoRE-ATAC](https://github.com/UcarLab/CoRE-ATAC/): Classification of Regulatory Elements with ATAC-seq (predict Promoters, Enhancers, and Inuslators)
 - [PEAS](https://github.com/UcarLab/PEAS): Predict Enhancers from ATAC-seq
 - [PECA](https://github.com/SUwonglab/PECA): infer context specific gene regulatory network from paired gene expression and chromatin accessibility data
