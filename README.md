@@ -28,6 +28,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [Scasat (single-cell ATAC-seq analysis tool)](https://github.com/ManchesterBioinference/Scasat)
 - [scATAC-pro](https://www.biorxiv.org/content/10.1101/824326v1.abstract)
 - [sc-compReg](https://github.com/SUwonglab/sc-compReg)
+- [SCENIC+](https://github.com/aertslab/scenicplus): python package to build gene regulatory networks using single-cell chromatin accessibility (scATAC-seq) data
 - [scOpen](https://www.biorxiv.org/content/10.1101/865931v1.abstract)
 - [SCRAT](https://zhiji.shinyapps.io/scrat/)
 - [signac](https://satijalab.org/signac/)
