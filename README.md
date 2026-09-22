@@ -22,6 +22,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [destin](https://github.com/urrutiag/destin)
 - [epiScanpy](https://github.com/colomemaria/epiScanpy)
 - [MAESTRO](https://github.com/liulab-dfci/MAESTRO): Model-based Analysis of Single-cell Transcriptome and Regulome
+- [pycisTopic](https://github.com/aertslab/pycisTopic): Python module to identify cell states and cis-regulatory topics from single-cell epigenomics data
 - [scABC - single cell Accessibility Based Clustering](https://github.com/SUwonglab/scABC)
 - [scAI - single cell Aggregation and Integration method for analyzing single cell multi-omics data](https://github.com/amsszlh/scAI)
 - [SCALE](https://github.com/jsxlei/SCALE)
