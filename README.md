@@ -78,6 +78,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [enrichTF](https://www.bioconductor.org/packages/release/bioc/html/enrichTF.html)
 - [HINT-ATAC](https://link.springer.com/article/10.1186/s13059-019-1642-2)
 - [HOMER](http://homer.ucsd.edu/homer/)
+- [maxATAC](https://github.com/MiraldiLab/maxATAC): genome-scale transcription factor binding prediction from ATAC-seq signal and DNA sequence
 - [MEDEA](https://github.com/BulykLab/MEDEA)
 - [MEME Suite](http://meme-suite.org/)
 - [MMARGE](https://github.com/vlink/marge/)
