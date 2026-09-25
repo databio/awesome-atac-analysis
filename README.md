@@ -36,6 +36,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [SCENIC+](https://github.com/aertslab/scenicplus): python package to build gene regulatory networks using single-cell chromatin accessibility (scATAC-seq) data
 - [scOpen](https://www.biorxiv.org/content/10.1101/865931v1.abstract)
 - [SCRAT](https://zhiji.shinyapps.io/scrat/)
+- [SEACells](https://github.com/dpeerlab/SEACells): Single-cell epigenomic analysis of cell state landscapes by inferring metacells from scATAC-seq data
 - [signac](https://satijalab.org/signac/)
 - [SnapATAC (Single Nucleus Analysis Pipeline for ATAC-seq)](https://github.com/r3fang/SnapATAC)
 - [SnapATAC2](https://github.com/scverse/SnapATAC2): Python package for scalable single-cell epigenomics analysis
