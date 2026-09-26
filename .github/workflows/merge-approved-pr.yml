@@ -1,0 +1,98 @@
+name: Merge approved pull requests
+
+on:
+  pull_request_review:
+    types: [submitted]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  merge:
+    if: >
+      github.event.review.state == 'approved' &&
+      github.event.pull_request.state == 'open' &&
+      github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Verify approval and current PR state
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REVIEWER: ${{ github.event.review.user.login }}
+          REVIEW_COMMIT: ${{ github.event.review.commit_id }}
+        run: |
+          set -euo pipefail
+
+          permission="$(gh api "repos/$REPO/collaborators/$REVIEWER/permission" --jq '.permission')"
+          case "$permission" in
+            admin|maintain|write) ;;
+            *)
+              echo "Reviewer $REVIEWER has permission '$permission'; refusing to merge."
+              exit 1
+              ;;
+          esac
+
+          pr_json="$(gh api "repos/$REPO/pulls/$PR_NUMBER")"
+          current_head="$(jq -r '.head.sha' <<<"$pr_json")"
+          state="$(jq -r '.state' <<<"$pr_json")"
+          draft="$(jq -r '.draft' <<<"$pr_json")"
+
+          if [[ "$state" != "open" || "$draft" == "true" ]]; then
+            echo "PR is no longer an open, non-draft PR."
+            exit 1
+          fi
+
+          if [[ "$current_head" != "$REVIEW_COMMIT" ]]; then
+            echo "PR head changed after this approval; refusing to merge."
+            exit 1
+          fi
+
+          reviews_json="$(gh api "repos/$REPO/pulls/$PR_NUMBER/reviews?per_page=100")"
+          blocking_changes="$(
+            jq --arg sha "$current_head" '
+              [.[] | select(.commit_id == $sha)]
+              | sort_by(.user.login, .submitted_at)
+              | group_by(.user.login)
+              | map(last)
+              | any(.state == "CHANGES_REQUESTED")
+            ' <<<"$reviews_json"
+          )"
+
+          if [[ "$blocking_changes" == "true" ]]; then
+            echo "A current-head reviewer has requested changes; refusing to merge."
+            exit 1
+          fi
+
+          echo "CURRENT_HEAD=$current_head" >> "$GITHUB_ENV"
+          echo "HEAD_REPO=$(jq -r '.head.repo.full_name' <<<"$pr_json")" >> "$GITHUB_ENV"
+          echo "HEAD_REF=$(jq -r '.head.ref' <<<"$pr_json")" >> "$GITHUB_ENV"
+
+      - name: Merge pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          set -euo pipefail
+
+          result="$(
+            gh api               --method PUT               "repos/$REPO/pulls/$PR_NUMBER/merge"               -f merge_method=merge               -f sha="$CURRENT_HEAD"
+          )"
+
+          if [[ "$(jq -r '.merged' <<<"$result")" != "true" ]]; then
+            echo "$result"
+            exit 1
+          fi
+
+      - name: Delete merged head branch
+        if: env.HEAD_REPO == github.repository
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          gh api             --method DELETE             "repos/$REPO/git/refs/heads/$HEAD_REF"
