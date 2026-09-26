@@ -23,6 +23,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [epiScanpy](https://github.com/colomemaria/epiScanpy)
 - [FigR](https://github.com/buenrostrolab/FigR): Functional inference of gene regulation using single-cell chromatin accessibility and gene expression data
 - [MAESTRO](https://github.com/liulab-dfci/MAESTRO): Model-based Analysis of Single-cell Transcriptome and Regulome
+- [MIRA](https://github.com/cistrome/MIRA): Multimodal models for integrated regulatory analysis of single-cell ATAC-seq and RNA-seq data
 - [pycisTopic](https://github.com/aertslab/pycisTopic): Python module to identify cell states and cis-regulatory topics from single-cell epigenomics data
 - [scABC - single cell Accessibility Based Clustering](https://github.com/SUwonglab/scABC)
 - [scAI - single cell Aggregation and Integration method for analyzing single cell multi-omics data](https://github.com/amsszlh/scAI)
