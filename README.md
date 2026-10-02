@@ -98,6 +98,7 @@ A collection of tools for analysis of chromatin accessibility data.
 
 - [ALTRE](https://mathelab.github.io/ALTRE/)
 - [DAStk](https://github.com/Dowell-Lab/DAStk)
+- [DiffBind](https://bioconductor.org/packages/release/bioc/html/DiffBind.html): Differential binding and accessibility analysis of peak sets
 - [diffTF](https://difftf.readthedocs.io/en/latest/)
 
 ## Nucleosome positioning
