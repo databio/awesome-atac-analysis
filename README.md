@@ -78,6 +78,7 @@ A collection of tools for analysis of chromatin accessibility data.
 
 ## Motif enrichment/TF footprinting/TFBS
 
+- [ATACseqTFEA](https://bioconductor.org/packages/release/bioc/html/ATACseqTFEA.html): Transcription factor enrichment analysis using ATAC-seq footprinting and open region signal
 - [BiFET](https://github.com/UcarLab/BiFET)
 - [BinDNase](https://research.cs.aalto.fi/csb/software/index.shtml)
 - [CENTIPEDE](http://centipede.uchicago.edu/)
