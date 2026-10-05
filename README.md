@@ -14,16 +14,21 @@ A collection of tools for analysis of chromatin accessibility data.
 - [AMULET](https://github.com/UcarLab/AMULET): A count based method for detecting multiplets from single nucleus ATAC-seq (snATAC-seq) data
 - [ArchR: Analysis of Regulatory Chromatin in R](https://github.com/GreenleafLab/ArchR)
 - [Bead-based scATAC-seq data Processing (BAP)](https://github.com/caleblareau/bap)
+- [BPCells](https://github.com/bnprks/BPCells): High-performance single-cell ATAC-seq and RNA-seq data analysis in R
 - [Brockman Representation Of Chromatin by K-mers in Mark-Associated Nucleotides.](https://carldeboer.github.io/brockman.html)
 - [Cell Ranger ATAC](https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/what-is-cell-ranger-atac)
+- [CellSpace](https://github.com/zakieh-tayyebi/CellSpace): Scalable sequence-informed embedding of single-cell ATAC-seq data
+- [ChromSCape](https://bioconductor.org/packages/release/bioc/html/ChromSCape.html): Analysis of single-cell epigenomics datasets with a Shiny App
 - [chromVAR](https://github.com/GreenleafLab/chromVAR)
 - [Cicero](https://cole-trapnell-lab.github.io/cicero-release/)
 - [cisTopic](https://github.com/aertslab/cisTopic)
 - [destin](https://github.com/urrutiag/destin)
 - [epiScanpy](https://github.com/colomemaria/epiScanpy)
 - [FigR](https://github.com/buenrostrolab/FigR): Functional inference of gene regulation using single-cell chromatin accessibility and gene expression data
+- [gchromVAR](https://github.com/caleblareau/gchromVAR): Cell type specific enrichments using finemapped variants and quantitative epigenetic data
 - [MAESTRO](https://github.com/liulab-dfci/MAESTRO): Model-based Analysis of Single-cell Transcriptome and Regulome
 - [MIRA](https://github.com/cistrome/MIRA): Multimodal models for integrated regulatory analysis of single-cell ATAC-seq and RNA-seq data
+- [pychromVAR](https://github.com/pinellolab/pychromVAR): Python implementation of chromVAR for analyzing single-cell chromatin accessibility data
 - [pycisTopic](https://github.com/aertslab/pycisTopic): Python module to identify cell states and cis-regulatory topics from single-cell epigenomics data
 - [scABC - single cell Accessibility Based Clustering](https://github.com/SUwonglab/scABC)
 - [scAI - single cell Aggregation and Integration method for analyzing single cell multi-omics data](https://github.com/amsszlh/scAI)
@@ -51,6 +56,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [ATACProc: a pipeline for processing ATAC-seq data](https://github.com/ay-lab/ATACProc)
 - [Basepair](https://www.basepairtech.com/analysis/atac-seq/) 
 - [A bioinformatic analysis pipeline for bulk ATAC-seq](https://github.com/shengyongniu/bulk_ATAC_seq)
+- [Chromap](https://github.com/haowenz/chromap): fast alignment and preprocessing of bulk and single-cell chromatin accessibility data
 - [CIPHER](https://github.com/c-guzman/cipher-workflow-platform)
 - [ENCODE ATAC-seq pipeline](https://github.com/ENCODE-DCC/atac-seq-pipeline)
 - [esATAC](https://www.bioconductor.org/packages/release/bioc/html/esATAC.html)
@@ -74,6 +80,7 @@ A collection of tools for analysis of chromatin accessibility data.
 
 ## Motif enrichment/TF footprinting/TFBS
 
+- [ATACseqTFEA](https://bioconductor.org/packages/release/bioc/html/ATACseqTFEA.html): Transcription factor enrichment analysis using ATAC-seq footprinting and open region signal
 - [BiFET](https://github.com/UcarLab/BiFET)
 - [BinDNase](https://research.cs.aalto.fi/csb/software/index.shtml)
 - [CENTIPEDE](http://centipede.uchicago.edu/)
@@ -96,6 +103,7 @@ A collection of tools for analysis of chromatin accessibility data.
 
 - [ALTRE](https://mathelab.github.io/ALTRE/)
 - [DAStk](https://github.com/Dowell-Lab/DAStk)
+- [DiffBind](https://bioconductor.org/packages/release/bioc/html/DiffBind.html): Differential binding and accessibility analysis of peak sets
 - [diffTF](https://difftf.readthedocs.io/en/latest/)
 
 ## Nucleosome positioning
