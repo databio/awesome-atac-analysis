@@ -38,6 +38,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [SCAVENGE](https://github.com/sankaranlab/SCAVENGE): Single Cell Analysis of Variant Enrichment through Network Propagation across Gel-like Network Embeddings
 - [sc-compReg](https://github.com/SUwonglab/sc-compReg)
 - [SCENIC+](https://github.com/aertslab/scenicplus): python package to build gene regulatory networks using single-cell chromatin accessibility (scATAC-seq) data
+- [scGLUE](https://github.com/gao-lab/GLUE): Graph-linked unified embedding for single-cell multi-omics data integration and regulatory inference
 - [scOpen](https://www.biorxiv.org/content/10.1101/865931v1.abstract)
 - [SCRAT](https://zhiji.shinyapps.io/scrat/)
 - [SEACells](https://github.com/dpeerlab/SEACells): Single-cell epigenomic analysis of cell state landscapes by inferring metacells from scATAC-seq data
