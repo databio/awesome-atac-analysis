@@ -77,6 +77,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [HMMRATAC](https://github.com/LiuLabUB/HMMRATAC)
 - [HOMER](http://homer.ucsd.edu/homer/)
 - [Hotspot2](https://github.com/Altius/hotspot2)
+- [LanceOtron](https://github.com/LHentges/LanceOtron): Deep learning peak caller for ATAC-seq, ChIP-seq, and DNase-seq data
 - [MACS](https://github.com/taoliu/MACS)
 - [PeaKDEck](https://www.ccmp.ox.ac.uk/peakdeck)
 
