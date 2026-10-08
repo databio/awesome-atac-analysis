@@ -23,6 +23,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [Cicero](https://cole-trapnell-lab.github.io/cicero-release/)
 - [cisTopic](https://github.com/aertslab/cisTopic)
 - [destin](https://github.com/urrutiag/destin)
+- [Dictys](https://github.com/pinellolab/dictys): Dynamic gene regulatory network reconstruction from single-cell RNA-seq and ATAC-seq data
 - [epiScanpy](https://github.com/colomemaria/epiScanpy)
 - [FigR](https://github.com/buenrostrolab/FigR): Functional inference of gene regulation using single-cell chromatin accessibility and gene expression data
 - [gchromVAR](https://github.com/caleblareau/gchromVAR): Cell type specific enrichments using finemapped variants and quantitative epigenetic data
