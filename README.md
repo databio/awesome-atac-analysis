@@ -17,6 +17,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [BPCells](https://github.com/bnprks/BPCells): High-performance single-cell ATAC-seq and RNA-seq data analysis in R
 - [Brockman Representation Of Chromatin by K-mers in Mark-Associated Nucleotides.](https://carldeboer.github.io/brockman.html)
 - [Cell Ranger ATAC](https://support.10xgenomics.com/single-cell-atac/software/pipelines/latest/what-is-cell-ranger-atac)
+- [CellOracle](https://github.com/morris-lab/CellOracle): Dissecting cell identity via network inference and in silico gene perturbation analysis using single-cell ATAC-seq and RNA-seq data
 - [CellSpace](https://github.com/zakieh-tayyebi/CellSpace): Scalable sequence-informed embedding of single-cell ATAC-seq data
 - [ChromSCape](https://bioconductor.org/packages/release/bioc/html/ChromSCape.html): Analysis of single-cell epigenomics datasets with a Shiny App
 - [chromVAR](https://github.com/GreenleafLab/chromVAR)
