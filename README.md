@@ -34,6 +34,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [MIRA](https://github.com/cistrome/MIRA): Multimodal models for integrated regulatory analysis of single-cell ATAC-seq and RNA-seq data
 - [pychromVAR](https://github.com/pinellolab/pychromVAR): Python implementation of chromVAR for analyzing single-cell chromatin accessibility data
 - [pycisTopic](https://github.com/aertslab/pycisTopic): Python module to identify cell states and cis-regulatory topics from single-cell epigenomics data
+- [pycistarget](https://github.com/aertslab/pycistarget): Python module to perform motif enrichment analysis in sets of regions and identify high-confidence TF cistromes
 - [scABC - single cell Accessibility Based Clustering](https://github.com/SUwonglab/scABC)
 - [scAI - single cell Aggregation and Integration method for analyzing single cell multi-omics data](https://github.com/amsszlh/scAI)
 - [SCALE](https://github.com/jsxlei/SCALE)
