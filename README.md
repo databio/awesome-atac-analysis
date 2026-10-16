@@ -34,6 +34,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [MAESTRO](https://github.com/liulab-dfci/MAESTRO): Model-based Analysis of Single-cell Transcriptome and Regulome
 - [MIRA](https://github.com/cistrome/MIRA): Multimodal models for integrated regulatory analysis of single-cell ATAC-seq and RNA-seq data
 - [MultiVelo](https://github.com/welch-lab/MultiVelo): Multi-omic velocity model incorporating single-cell chromatin accessibility and RNA-seq data
+- [PeakVI](https://docs.scvi-tools.org/en/stable/user_guide/models/peakvi.html): Probabilistic deep generative model for single-cell ATAC-seq data analysis and harmonization
 - [pychromVAR](https://github.com/pinellolab/pychromVAR): Python implementation of chromVAR for analyzing single-cell chromatin accessibility data
 - [pycisTopic](https://github.com/aertslab/pycisTopic): Python module to identify cell states and cis-regulatory topics from single-cell epigenomics data
 - [pycistarget](https://github.com/aertslab/pycistarget): Python module to perform motif enrichment analysis in sets of regions and identify high-confidence TF cistromes
