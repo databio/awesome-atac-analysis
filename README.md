@@ -97,6 +97,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [CENTIPEDE](http://centipede.uchicago.edu/)
 - [DNase2TF](https://sourceforge.net/projects/dnase2tfr/)
 - [enrichTF](https://www.bioconductor.org/packages/release/bioc/html/enrichTF.html)
+- [fp-tools](https://github.com/oncologylab/fp-tools): Command-first ATAC-seq footprinting, motif analysis, and reproducible interactive reports
 - [HINT-ATAC](https://link.springer.com/article/10.1186/s13059-019-1642-2)
 - [HOMER](http://homer.ucsd.edu/homer/)
 - [maxATAC](https://github.com/MiraldiLab/maxATAC): genome-scale transcription factor binding prediction from ATAC-seq signal and DNA sequence
