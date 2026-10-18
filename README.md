@@ -95,6 +95,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [BiFET](https://github.com/UcarLab/BiFET)
 - [BinDNase](https://research.cs.aalto.fi/csb/software/index.shtml)
 - [CENTIPEDE](http://centipede.uchicago.edu/)
+- [CraftGRN](https://github.com/oncologylab/craftgrn): R package for combining RNA expression and ATAC-seq TF footprinting analysis to reconstruct gene regulatory networks.
 - [DNase2TF](https://sourceforge.net/projects/dnase2tfr/)
 - [enrichTF](https://www.bioconductor.org/packages/release/bioc/html/enrichTF.html)
 - [fp-tools](https://github.com/oncologylab/fp-tools): Command-first ATAC-seq footprinting, motif analysis, and reproducible interactive reports
