@@ -88,6 +88,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [LanceOtron](https://github.com/LHentges/LanceOtron): Deep learning peak caller for ATAC-seq, ChIP-seq, and DNase-seq data
 - [MACS](https://github.com/taoliu/MACS)
 - [PeaKDEck](https://www.ccmp.ox.ac.uk/peakdeck)
+- [ROCCO](https://github.com/nolan-h-hamilton/ROCCO): Consensus peak calling for ATAC-seq data via convex optimization
 
 ## Motif enrichment/TF footprinting/TFBS
 
