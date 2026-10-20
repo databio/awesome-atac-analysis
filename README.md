@@ -116,6 +116,7 @@ A collection of tools for analysis of chromatin accessibility data.
 ## Differential accessibility
 
 - [ALTRE](https://mathelab.github.io/ALTRE/)
+- [cinaR](https://github.com/eonurk/cinaR): Differential accessibility and enrichment analysis pipeline for bulk ATAC-seq data
 - [DAStk](https://github.com/Dowell-Lab/DAStk)
 - [DiffBind](https://bioconductor.org/packages/release/bioc/html/DiffBind.html): Differential binding and accessibility analysis of peak sets
 - [diffTF](https://difftf.readthedocs.io/en/latest/)
