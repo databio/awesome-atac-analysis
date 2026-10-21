@@ -26,6 +26,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [CREsted](https://github.com/aertslab/CREsted): Python package for training sequence-based deep learning models on scATAC-seq data to capture enhancer code and design cell-type-specific sequences
 - [destin](https://github.com/urrutiag/destin)
 - [Dictys](https://github.com/pinellolab/dictys): Dynamic gene regulatory network reconstruction from single-cell RNA-seq and ATAC-seq data
+- [epiAneufinder](https://github.com/colomemaria/epiAneufinder): R package to identify copy number alterations from single-cell ATAC-seq data
 - [epiregulon](https://bioconductor.org/packages/release/bioc/html/epiregulon.html): Gene regulatory network inference from single-cell epigenomic data
 - [epiScanpy](https://github.com/colomemaria/epiScanpy)
 - [FigR](https://github.com/buenrostrolab/FigR): Functional inference of gene regulation using single-cell chromatin accessibility and gene expression data
