@@ -11,6 +11,7 @@ A collection of tools for analysis of chromatin accessibility data.
 ## Single-cell
 
 - [Accessibility Pattern based Epigenomic Clustering (APEC)](https://github.com/QuKunLab/APEC)
+- [Alleloscope](https://github.com/seasoncloud/Alleloscope): Allele-specific copy number alteration profiling and integrative analysis for single-cell ATAC-seq and DNA-seq data
 - [AMULET](https://github.com/UcarLab/AMULET): A count based method for detecting multiplets from single nucleus ATAC-seq (snATAC-seq) data
 - [ArchR: Analysis of Regulatory Chromatin in R](https://github.com/GreenleafLab/ArchR)
 - [Bead-based scATAC-seq data Processing (BAP)](https://github.com/caleblareau/bap)
