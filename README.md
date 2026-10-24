@@ -7,6 +7,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [ATACseqQC](https://bioconductor.org/packages/release/bioc/html/ATACseqQC.html)
 - [ATAqC](https://github.com/kundajelab/ataqc)
 - [ataqv](https://github.com/ParkerLab/ataqv)
+- [EpiCompare](https://bioconductor.org/packages/release/bioc/html/EpiCompare.html): Quality control, comparison, and benchmarking of epigenomic datasets
 
 ## Single-cell
 
