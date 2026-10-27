@@ -111,6 +111,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [MEDEA](https://github.com/BulykLab/MEDEA)
 - [MEME Suite](http://meme-suite.org/)
 - [MMARGE](https://github.com/vlink/marge/)
+- [motifmatchr](https://bioconductor.org/packages/release/bioc/html/motifmatchr.html): Fast motif matching in genomic sequences and ATAC-seq peak regions
 - [PIQ](http://piq.csail.mit.edu/)
 - [Romulus](https://github.com/ajank/Romulus)
 - [TEPIC](https://github.com/schulzlab/TEPIC)
