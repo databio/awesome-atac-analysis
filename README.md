@@ -57,6 +57,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [scGLUE](https://github.com/gao-lab/GLUE): Graph-linked unified embedding for single-cell multi-omics data integration and regulatory inference
 - [scOpen](https://www.biorxiv.org/content/10.1101/865931v1.abstract)
 - [SCRAT](https://zhiji.shinyapps.io/scrat/)
+- [scReadSim](https://github.com/JSB-UCLA/scReadSim): Single-cell RNA-seq and ATAC-seq read simulator
 - [SEACells](https://github.com/dpeerlab/SEACells): Single-cell epigenomic analysis of cell state landscapes by inferring metacells from scATAC-seq data
 - [signac](https://satijalab.org/signac/)
 - [SIMBA](https://github.com/pinellolab/simba): Single-cell embeddings along with features for single-cell ATAC-seq and multi-omics data
