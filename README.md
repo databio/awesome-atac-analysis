@@ -50,6 +50,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [Scasat (single-cell ATAC-seq analysis tool)](https://github.com/ManchesterBioinference/Scasat)
 - [scATAC-pro](https://www.biorxiv.org/content/10.1101/824326v1.abstract)
 - [scBasset](https://github.com/calico/scBasset): sequence-based modeling of single-cell ATAC-seq using convolutional neural networks
+- [scDblFinder](https://bioconductor.org/packages/release/bioc/html/scDblFinder.html): Detection and handling of doublets/multiplets in single-cell sequencing data, including single-cell ATAC-seq
 - [SCAVENGE](https://github.com/sankaranlab/SCAVENGE): Single Cell Analysis of Variant Enrichment through Network Propagation across Gel-like Network Embeddings
 - [sc-compReg](https://github.com/SUwonglab/sc-compReg)
 - [SCENIC+](https://github.com/aertslab/scenicplus): python package to build gene regulatory networks using single-cell chromatin accessibility (scATAC-seq) data
