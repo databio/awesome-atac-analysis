@@ -82,6 +82,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [I-ATAC](https://www.jax.org/research-and-faculty/resources/i-atac#) - interactive pipeline for the management and pre-processing of ATAC-seq samples.
 - [nfcore/atacseq](https://github.com/nf-core/atacseq)
 - [PEPATAC](http://pepatac.databio.org/en/latest/)
+- [PUMATAC](https://github.com/aertslab/PUMATAC): Pipeline for Universal Mapping of ATAC-seq data across multiple single-cell technologies
 - [pyflow-atacseq](https://github.com/crazyhottommy/pyflow-ATACseq)
 - [seq2science](https://github.com/vanheeringen-lab/seq2science)
 - [snakePipes ATAC-seq](https://snakepipes.readthedocs.io/en/latest/content/workflows/ATAC-seq.html)
