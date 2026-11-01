@@ -109,6 +109,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [CraftGRN](https://github.com/oncologylab/craftgrn): R package for combining RNA expression and ATAC-seq TF footprinting analysis to reconstruct gene regulatory networks.
 - [DNase2TF](https://sourceforge.net/projects/dnase2tfr/)
 - [enrichTF](https://www.bioconductor.org/packages/release/bioc/html/enrichTF.html)
+- [FindIT2](https://bioconductor.org/packages/release/bioc/html/FindIT2.html): Find influential transcription factors and target genes using multi-peak multi-gene annotation and regulatory potential from multi-omics data
 - [fp-tools](https://github.com/oncologylab/fp-tools): Command-first ATAC-seq footprinting, motif analysis, and reproducible interactive reports
 - [HINT-ATAC](https://link.springer.com/article/10.1186/s13059-019-1642-2)
 - [HOMER](http://homer.ucsd.edu/homer/)
