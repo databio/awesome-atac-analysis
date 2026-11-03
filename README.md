@@ -63,6 +63,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [SEACells](https://github.com/dpeerlab/SEACells): Single-cell epigenomic analysis of cell state landscapes by inferring metacells from scATAC-seq data
 - [signac](https://satijalab.org/signac/)
 - [SIMBA](https://github.com/pinellolab/simba): Single-cell embeddings along with features for single-cell ATAC-seq and multi-omics data
+- [Sinto](https://github.com/timoast/sinto): Tools for single-cell data processing including scATAC-seq fragment file generation and barcode manipulation
 - [SnapATAC (Single Nucleus Analysis Pipeline for ATAC-seq)](https://github.com/r3fang/SnapATAC)
 - [SnapATAC2](https://github.com/scverse/SnapATAC2): Python package for scalable single-cell epigenomics analysis
 - [TimeReg](https://github.com/SUwonglab/TimeReg)
