@@ -15,6 +15,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [Alleloscope](https://github.com/seasoncloud/Alleloscope): Allele-specific copy number alteration profiling and integrative analysis for single-cell ATAC-seq and DNA-seq data
 - [AMULET](https://github.com/UcarLab/AMULET): A count based method for detecting multiplets from single nucleus ATAC-seq (snATAC-seq) data
 - [ArchR: Analysis of Regulatory Chromatin in R](https://github.com/GreenleafLab/ArchR)
+- [atacInferCnv](https://bioconductor.org/packages/release/bioc/html/atacInferCnv.html): Call copy number alterations from single-cell ATAC-seq data using InferCNV adaptation
 - [Bead-based scATAC-seq data Processing (BAP)](https://github.com/caleblareau/bap)
 - [betterChromVAR](https://bioconductor.org/packages/release/bioc/html/betterChromVAR.html): Fast analytical implementation of chromVAR to infer motif deviations and normalize technical variations from bulk or single-cell ATAC-seq data
 - [BPCells](https://github.com/bnprks/BPCells): High-performance single-cell ATAC-seq and RNA-seq data analysis in R
