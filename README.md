@@ -26,6 +26,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [ChromSCape](https://bioconductor.org/packages/release/bioc/html/ChromSCape.html): Analysis of single-cell epigenomics datasets with a Shiny App
 - [chromVAR](https://github.com/GreenleafLab/chromVAR)
 - [Cicero](https://cole-trapnell-lab.github.io/cicero-release/)
+- [CIRCE](https://github.com/cantinilab/Circe): Scalable Python package to infer co-accessibility networks and predict cis-regulatory DNA interactions from single-cell ATAC-seq data
 - [cisTopic](https://github.com/aertslab/cisTopic)
 - [CREsted](https://github.com/aertslab/CREsted): Python package for training sequence-based deep learning models on scATAC-seq data to capture enhancer code and design cell-type-specific sequences
 - [destin](https://github.com/urrutiag/destin)
