@@ -123,6 +123,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [MEDEA](https://github.com/BulykLab/MEDEA)
 - [MEME Suite](http://meme-suite.org/)
 - [MMARGE](https://github.com/vlink/marge/)
+- [monaLisa](https://bioconductor.org/packages/release/bioc/html/monaLisa.html): Binned motif enrichment analysis and visualization to identify motifs associated with changes in chromatin accessibility
 - [motifmatchr](https://bioconductor.org/packages/release/bioc/html/motifmatchr.html): Fast motif matching in genomic sequences and ATAC-seq peak regions
 - [PIQ](http://piq.csail.mit.edu/)
 - [Romulus](https://github.com/ajank/Romulus)
