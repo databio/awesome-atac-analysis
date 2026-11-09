@@ -95,6 +95,7 @@ A collection of tools for analysis of chromatin accessibility data.
 
 ## Peak callers
 
+- [epigraHMM](https://bioconductor.org/packages/epigraHMM/): Hidden Markov model-based consensus and differential peak calling for epigenomic assays (ChIP-seq, ATAC-seq, DNase-seq) across multiple samples and conditions
 - [F-Seq](http://fureylab.web.unc.edu/software/fseq/)
 - [Genrich](https://github.com/jsh58/Genrich)
 - [HMMRATAC](https://github.com/LiuLabUB/HMMRATAC)
