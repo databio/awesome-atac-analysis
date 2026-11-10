@@ -42,6 +42,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [MultiVelo](https://github.com/welch-lab/MultiVelo): Multi-omic velocity model incorporating single-cell chromatin accessibility and RNA-seq data
 - [MultiVI](https://docs.scvi-tools.org/en/stable/user_guide/models/multivi.html): Probabilistic deep generative model for the integration and multimodal analysis of single-cell ATAC-seq and RNA-seq data
 - [muon](https://github.com/scverse/muon): Multimodal omics framework for single-cell ATAC-seq and RNA-seq data analysis
+- [Numbat](https://github.com/kharchenkolab/numbat): Haplotype-aware copy number variation (CNV) analysis and tumor lineage reconstruction from single-cell RNA-seq, single-cell ATAC-seq, and multiome data
 - [PeakVI](https://docs.scvi-tools.org/en/stable/user_guide/models/peakvi.html): Probabilistic deep generative model for single-cell ATAC-seq data analysis and harmonization
 - [pychromVAR](https://github.com/pinellolab/pychromVAR): Python implementation of chromVAR for analyzing single-cell chromatin accessibility data
 - [pycisTopic](https://github.com/aertslab/pycisTopic): Python module to identify cell states and cis-regulatory topics from single-cell epigenomics data
