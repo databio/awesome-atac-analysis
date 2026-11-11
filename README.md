@@ -15,6 +15,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [Alleloscope](https://github.com/seasoncloud/Alleloscope): Allele-specific copy number alteration profiling and integrative analysis for single-cell ATAC-seq and DNA-seq data
 - [AMULET](https://github.com/UcarLab/AMULET): A count based method for detecting multiplets from single nucleus ATAC-seq (snATAC-seq) data
 - [ArchR: Analysis of Regulatory Chromatin in R](https://github.com/GreenleafLab/ArchR)
+- [atac_mapper](https://github.com/quadbio/atac_mapper): Map query scATAC-seq data to a single-cell chromatin accessibility atlas using cisTopic
 - [atacInferCnv](https://bioconductor.org/packages/release/bioc/html/atacInferCnv.html): Call copy number alterations from single-cell ATAC-seq data using InferCNV adaptation
 - [Bead-based scATAC-seq data Processing (BAP)](https://github.com/caleblareau/bap)
 - [betterChromVAR](https://bioconductor.org/packages/release/bioc/html/betterChromVAR.html): Fast analytical implementation of chromVAR to infer motif deviations and normalize technical variations from bulk or single-cell ATAC-seq data
@@ -85,8 +86,10 @@ A collection of tools for analysis of chromatin accessibility data.
 - [CIPHER](https://github.com/c-guzman/cipher-workflow-platform)
 - [ENCODE ATAC-seq pipeline](https://github.com/ENCODE-DCC/atac-seq-pipeline)
 - [esATAC](https://www.bioconductor.org/packages/release/bioc/html/esATAC.html)
+- [gatac](https://github.com/scverse/gatac): GPU-accelerated ATAC-seq fragment processing and tile matrix generation
 - [GUAVA: A Graphical User Interface for the Analysis and Visualization of ATAC-seq Data](https://github.com/MayurDivate/GUAVA)
 - [I-ATAC](https://www.jax.org/research-and-faculty/resources/i-atac#) - interactive pipeline for the management and pre-processing of ATAC-seq samples.
+- [nf-atac](https://github.com/cellgeni/nf-atac): Nextflow pipeline for processing single-cell ATAC-seq and multiome data with pyCisTopic
 - [nfcore/atacseq](https://github.com/nf-core/atacseq)
 - [PEPATAC](http://pepatac.databio.org/en/latest/)
 - [PUMATAC](https://github.com/aertslab/PUMATAC): Pipeline for Universal Mapping of ATAC-seq data across multiple single-cell technologies
