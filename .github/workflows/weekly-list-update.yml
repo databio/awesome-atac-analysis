@@ -1,0 +1,155 @@
+name: Weekly list update
+
+# Every Tuesday at 10:00 UTC (or by hand), two Claude models update this list:
+#
+# 1. propose: Claude Haiku looks for new entries and edits README.md. When it
+#    finishes, a Claude Code Stop hook runs scripts/publish-pr.sh: it runs
+#    scripts/check_list.py (failures go back to Claude to fix), then commits,
+#    pushes and opens one pull request.
+# 2. review: Claude Opus rechecks every new entry against its sources and
+#    removes or fixes any that fail. Its Stop hook runs scripts/review-pr.sh:
+#    it re-runs the check, commits the changes, posts the review on the pull
+#    request, and merges it, or closes it if nothing is left.
+#
+# The hooks run inside the Claude steps, so they use Claude's GitHub login and
+# everything shows as claude[bot]. The workflow's own token is read-only and is
+# not kept in git. A run is skipped while an earlier list-update pull request
+# is still open. Rules for each model: automation/add-entries.md and
+# automation/review-entries.md.
+
+on:
+  schedule:
+    - cron: "0 10 * * 2"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: read
+  id-token: write
+  actions: read
+
+concurrency:
+  group: list-update
+  cancel-in-progress: false
+
+env:
+  PR_BRANCH: list-update
+  PR_PATHS: README.md
+  PR_CHECK: python3 scripts/check_list.py
+  PR_TITLE: Add new entries
+  PR_BASE: ${{ github.event.repository.default_branch }}
+  ALLOWED_TOOLS: Bash(*),Read(*),Write(*),Edit(*),Glob(*),Grep(*),WebSearch,WebFetch
+
+jobs:
+  propose:
+    runs-on: ubuntu-latest
+    outputs:
+      pr: ${{ steps.done.outputs.pr }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Skip if an earlier update is still open
+        id: gate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          open=$(gh pr list --state open --json headRefName \
+            --jq "[.[] | select(.headRefName | startswith(\"$PR_BRANCH-\"))] | length")
+          if [ "$open" != 0 ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::An earlier $PR_BRANCH pull request is still open; skipping this run"
+          fi
+          echo "START_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+
+      - name: List entries proposed before
+        if: steps.gate.outputs.skip != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/check_list.py --past-proposals > /tmp/past-proposals.txt
+
+      - name: Claude Haiku proposes new entries
+        if: steps.gate.outputs.skip != 'true'
+        uses: anthropics/claude-code-action@v1
+        with:
+          prompt: Follow automation/add-entries.md completely.
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN_UVA }}
+          claude_args: '--model haiku --allowedTools "${{ env.ALLOWED_TOOLS }},Edit(//tmp/pr-body.md),Edit(//tmp/pr-title.txt)"'
+          show_full_output: true
+          settings: |
+            {
+              "hooks": {
+                "Stop": [{
+                  "hooks": [{
+                    "type": "command",
+                    "command": "bash \"$CLAUDE_PROJECT_DIR\"/scripts/publish-pr.sh",
+                    "timeout": 600
+                  }]
+                }]
+              }
+            }
+
+      - name: Confirm the proposal finished
+        id: done
+        if: steps.gate.outputs.skip != 'true'
+        run: |
+          if [ ! -f /tmp/publish.done ]; then
+            echo "::error::scripts/publish-pr.sh did not finish, so no pull request was opened"
+            exit 1
+          fi
+          if [ -s /tmp/publish.pr ]; then echo "pr=$(cat /tmp/publish.pr)" >> "$GITHUB_OUTPUT"; fi
+
+  review:
+    needs: propose
+    if: needs.propose.outputs.pr != ''
+    runs-on: ubuntu-latest
+    env:
+      AUTO_MERGE: "true"
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Check out the pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_URL: ${{ needs.propose.outputs.pr }}
+        run: |
+          number=$(gh pr view "$PR_URL" --json number --jq .number)
+          head=$(gh pr view "$PR_URL" --json headRefName --jq .headRefName)
+          git fetch origin "$head"
+          git checkout -B "$head" "origin/$head"
+          echo "PR_NUMBER=$number" >> "$GITHUB_ENV"
+          echo "PR_HEAD=$head" >> "$GITHUB_ENV"
+          echo "START_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+          PR_NUMBER=$number python3 scripts/check_list.py --past-proposals > /tmp/past-proposals.txt
+
+      - name: Claude Opus reviews the new entries
+        uses: anthropics/claude-code-action@v1
+        with:
+          prompt: "Follow automation/review-entries.md completely. The pull request is number ${{ env.PR_NUMBER }}."
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN_UVA }}
+          claude_args: '--model opus --allowedTools "${{ env.ALLOWED_TOOLS }},Edit(//tmp/review.md)"'
+          show_full_output: true
+          settings: |
+            {
+              "hooks": {
+                "Stop": [{
+                  "hooks": [{
+                    "type": "command",
+                    "command": "bash \"$CLAUDE_PROJECT_DIR\"/scripts/review-pr.sh",
+                    "timeout": 600
+                  }]
+                }]
+              }
+            }
+
+      - name: Confirm the review finished
+        run: |
+          if [ ! -f /tmp/review.done ]; then
+            echo "::error::scripts/review-pr.sh did not finish, so the review was not applied"
+            exit 1
+          fi
