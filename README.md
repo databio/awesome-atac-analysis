@@ -132,6 +132,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [TEPIC](https://github.com/schulzlab/TEPIC)
 - [TOBIAS](https://github.com/loosolab/TOBIAS)
 - [TRACE](https://www.biorxiv.org/content/10.1101/801001v1.abstract)
+- [TraceBIND](https://github.com/lyx-lin/TraceBIND): Base-pair-resolution footprinting with sample-specific Tn5 bias correction for bulk and single-cell ATAC-seq data
 - [VplotR](https://bioconductor.org/packages/release/bioc/html/VplotR.html): Set of tools to generate V-plots and compute footprint profiles from paired-end genomic sequencing data
 - [Wellington](https://github.com/jpiper/pyDNase)
 
