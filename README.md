@@ -96,6 +96,7 @@ A collection of tools for analysis of chromatin accessibility data.
 
 ## Peak callers
 
+- [cPeaks](https://github.com/MengQiuchen/cPeaks): Consensus peak reference for bulk and single-cell ATAC-seq data, built from bulk datasets and deep-learning-predicted peaks
 - [epigraHMM](https://bioconductor.org/packages/epigraHMM/): Hidden Markov model-based consensus and differential peak calling for epigenomic assays (ChIP-seq, ATAC-seq, DNase-seq) across multiple samples and conditions
 - [F-Seq](http://fureylab.web.unc.edu/software/fseq/)
 - [Genrich](https://github.com/jsh58/Genrich)
@@ -129,6 +130,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [motifmatchr](https://bioconductor.org/packages/release/bioc/html/motifmatchr.html): Fast motif matching in genomic sequences and ATAC-seq peak regions
 - [PIQ](http://piq.csail.mit.edu/)
 - [Romulus](https://github.com/ajank/Romulus)
+- [scPrinter](https://github.com/buenrostrolab/scPrinter): Multi-scale footprinting of single-cell ATAC-seq data with deep learning models of transcription factor activity
 - [TEPIC](https://github.com/schulzlab/TEPIC)
 - [TOBIAS](https://github.com/loosolab/TOBIAS)
 - [TRACE](https://www.biorxiv.org/content/10.1101/801001v1.abstract)
@@ -149,6 +151,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [HMMRATAC](https://academic.oup.com/nar/article/47/16/e91/5519166)
 - [NucleoATAC](https://nucleoatac.readthedocs.io/en/latest/)
 - [NucTools](https://link.springer.com/article/10.1186/s12864-017-3580-2)
+- [scNucMap](https://github.com/qianming-bioinfo/scNucMap): Nucleosome landscape mapping at single-cell resolution from scMNase-seq data
 
 ## Region enrichment
 
