@@ -129,6 +129,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [motifmatchr](https://bioconductor.org/packages/release/bioc/html/motifmatchr.html): Fast motif matching in genomic sequences and ATAC-seq peak regions
 - [PIQ](http://piq.csail.mit.edu/)
 - [Romulus](https://github.com/ajank/Romulus)
+- [scPrinter](https://github.com/buenrostrolab/scPrinter): Multi-scale footprinting of single-cell ATAC-seq data with deep learning models of transcription factor activity
 - [TEPIC](https://github.com/schulzlab/TEPIC)
 - [TOBIAS](https://github.com/loosolab/TOBIAS)
 - [TRACE](https://www.biorxiv.org/content/10.1101/801001v1.abstract)
@@ -149,6 +150,7 @@ A collection of tools for analysis of chromatin accessibility data.
 - [HMMRATAC](https://academic.oup.com/nar/article/47/16/e91/5519166)
 - [NucleoATAC](https://nucleoatac.readthedocs.io/en/latest/)
 - [NucTools](https://link.springer.com/article/10.1186/s12864-017-3580-2)
+- [scNucMap](https://github.com/qianming-bioinfo/scNucMap): Mapping of nucleosome-free regions, cell clustering, and transcription factor identification from single-cell MNase-seq data
 
 ## Region enrichment
 
